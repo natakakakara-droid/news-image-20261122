@@ -2,6 +2,8 @@
 """Render 'THE WORLD IN ONE DAY — Sunday, 22 November 2026' front page.
 1024x1024 PNG, deterministic (no timestamps, fixed drawing order).
 Build-machine only; the entry itself (main.ts) just copies entry.png.
+Determinism: PIL writes no timestamps into the PNG, and every draw call is
+in a fixed order, so two runs are byte-identical (verified by sha256).
 """
 from PIL import Image, ImageDraw, ImageFont
 import textwrap, os

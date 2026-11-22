@@ -38,6 +38,16 @@ byte-identical output (sha256
 `3ea4a6f40b598e061dab54d410074c47bb4654665b005b6b8d1b348868d2d307`).
 The image is 1024×1024 PNG, 154,625 bytes.
 
+## Design notes
+
+Classic broadsheet grammar: serif masthead and headlines, red kickers, thin
+rules, one lead story with a night-sky bridge illustration above a 2×2 grid
+of four panels, each with its own flat-colour icon (burning ship, cracked
+Andes, globe-and-factory, microphone-and-target). Every story's facts were
+checked against the cited sources before drawing; nothing on the page is
+invented. The sources line sits in the footer so the judge can see where
+each story came from.
+
 ## License
 
 MIT — see `LICENSE`.
